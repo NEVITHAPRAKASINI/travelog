@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelog Login Page</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/login page style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/script.js"></script>
+</head>
+
+<body>
+    <div class="container login-container">
+        <div class="login-main">
+            <div class="">
+                <img src="images/login-header.svg" alt="login-banner">
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 login">
+                        <form action="/verifyUser" method="post">
+                            <h6>Login</h6>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" required id="userName"
+                                    name="userName">
+                                    <p style="color:red">Invalid userName</p>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" required
+                                    id="password" name="password">
+                                    <p style="color:red">Invalid password</p>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary form-control" value="Log in"></input>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 register">
+                        <form action="/signUpUser" method="post">
+                            <p>If you don't have an account register to create your account</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required id="Name"
+                                    name="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Id" required id="email"
+                                    name="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Phone No" required id="phoneNo"
+                                    name="phoneNo">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" required id="userName"
+                                    name="userName">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" required
+                                    id="password" name="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary form-control" value="Register"></input>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="footer">This mini project is developed as a part of Sirius Summer internship</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

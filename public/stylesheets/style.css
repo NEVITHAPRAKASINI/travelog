@@ -1,0 +1,22 @@
+body{font-family: 'IBM Plex Sans', sans-serif;font-size: 12px;}
+img {width:100%;}
+h6{font-weight: 700;}
+.navbar-default{background-color: #060B2D;}
+.navbar-nav li{color: #fff;display:inline;}
+.form-group {margin-bottom: 10px;}
+.form-control{border-radius: 0px; border:1px solid #EFEFEF;font-size: 12px;}
+.btn-primary{color:#fff; background-color: #060B2D; border-color:#060B2D; text-transform: uppercase;}
+.btn-primary:hover{background-color:#0a1666;border-color:#0a1666;}
+.footer{padding: 40px; text-align: center;color:#fff;}
+
+.login-container{ background-color: #060B2D;}
+.login-main{ width:60%; margin: 0 auto; padding:80px 0px 0px;}
+.login , .register{background-color: #fff; padding:20px 50px 30px;}
+.login {border-right:1px solid #EFEFEF;}
+
+.bg-clr{background-color: #EFEFEF; padding: 30px;}
+.addplace{}
+
+.detailplace{padding: 30px; background-color: #fff; height:100%;}
+#bucketlist{margin-right: 30px;}
+#aboutplace{border-radius: 0px; border:1px solid #EFEFEF;font-size: 40px;}

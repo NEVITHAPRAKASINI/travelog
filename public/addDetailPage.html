@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Place Screen</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <nav class=" navbar navbar-default ">
+      <a class="navbar-brand">
+        <img src="images/travelog-logo-white.svg" alt="travelog-header">
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">Hi</li>
+        <li class="nav-item username">Nevitha</li>
+        <li class="nav-item"><button class="btn btn-primary">Logout</button></li>
+      </ul>
+    </nav>
+
+    <div class="col-md-12">
+      <div class="row bg-clr">
+
+        <div class="col-md-7 addplace">
+          <div class="">
+            <!-- <img src="images/arrow.svg" alt="travelog-banner">-->
+            <h6>Add Place</h6>
+          </div>
+          <img src="images/travel-illustration.svg" alt="travelog-banner">
+        </div>
+        <div class="col-md-5">
+          <div class="detailplace">
+            <form>
+              <p>Add Details of the page where you have visited</p>
+              <div class="form-group">
+                <label for="city">city</label>
+                <input type="text" class="form-control" placeholder=" " required id="city" name="city">
+              </div>
+              <div class="form-group">
+                <label for="paste URL">paste URL</label>
+                <input type="url" class="form-control" placeholder=" " required id="paste URL" name="url">
+              </div>
+              <div class="form-group">
+                <label for="about place">Few words about this place</label>
+                <input type="text" class="form-control" placeholder=" " required id="aboutplace" name="about place">
+              </div>
+              <div class="form-group">
+                <label for="visited">VISISTED</label><input id="visited" type="checkbox" required>
+                <label for="bucketlist">BUCKETLIST</label><input id="bucketlist" type="checkbox" required>
+              </div>
+              <div class="form-group">
+                <label for="tra-ques">When did you travel this place?</label>
+                <input type="text" class="form-control" placeholder="city" required id="tra-ques" name="tra-ques">
+              </div>
+              <div>
+                <ul class="nav navbar-nav navbar-right">
+                  <input type="submit" class="btn btn-primary form-control" value="Add Place"></input>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
